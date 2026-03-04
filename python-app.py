@@ -43,7 +43,8 @@ for idx, feed in enumerate(VELOG_RSS_FEED["entries"]):
     recently_velog_posts += f"[{feed_date_kst.strftime('%Y/%m/%d')} - {feed['title']}]({feed['link']})  \n"
 
 
-markdown_text = f"""## Hello, {today_date}:D Let's give it our best shot.
+markdown_text = f"""## Minseo is working.. <img src="claude-loading.gif" width="28">
+*Hello, {today_date}:D Let's give it our best shot.*
 
 ### 🚀About Me
 
