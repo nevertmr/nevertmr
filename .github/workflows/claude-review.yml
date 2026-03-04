@@ -1,0 +1,46 @@
+name: Claude PR Review
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+    paths-ignore:
+      - '.github/workflows/claude-review.yml'
+
+jobs:
+  review:
+    if: github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Run Claude Review
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          track_progress: true
+          direct_prompt: |
+            Review this pull request for the nevertmr/nevertmr profile README repository.
+
+            This repo auto-generates a GitHub profile README via a scheduled Python script.
+            Key components:
+            - python-app.py: Parses RSS feeds (Tistory, Velog) and renders README.md with Jinja-style f-strings
+            - .github/workflows/python-app.yml: Scheduled CI that runs the script and commits changes
+            - requirements.txt: Python dependencies (feedparser, pytz)
+
+            Focus your review on:
+            1. Correctness of Python logic (RSS parsing, date handling, string formatting)
+            2. Workflow YAML validity and best practices
+            3. Potential runtime errors (network failures, malformed RSS, encoding issues)
+            4. Security concerns (dependency versions, secrets handling)
+            5. README template readability and markdown formatting
+
+            Keep feedback concise and actionable. Skip trivial style nits.
+          claude_args: "--allowedTools Bash Read Glob Grep"
