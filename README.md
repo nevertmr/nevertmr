@@ -1,4 +1,5 @@
-## Hello, March 04, 2026:D Let's give it our best shot.
+## Minseo is working.. <img src="claude-loading.gif" width="28">
+*Hello, March 04, 2026:D Let's give it our best shot.*
 
 ### 🚀About Me
 
