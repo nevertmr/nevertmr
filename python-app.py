@@ -44,7 +44,7 @@ for idx, feed in enumerate(VELOG_RSS_FEED["entries"]):
 
 
 markdown_text = f"""## Minseo is working.. <img src="claude-loading.gif" width="28">
-*Hello, {today_date}:D Let's give it our best shot.*
+<sub><i>Hello, {today_date}:D Let's give it our best shot.</i></sub>
 
 ### 🚀About Me
 
