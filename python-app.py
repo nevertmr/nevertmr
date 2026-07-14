@@ -68,7 +68,8 @@ markdown_text = f"""## Minseo is working.. <img src="claude-loading.gif" width="
 
 | Period | Experience |
 | ------ | ---------- |
-| Oct 2025 - Present | **AI Engineer** @ [Nota AI](https://nota.ai/) |
+| Jun 2026 - Aug 2026 | **Summer Research Intern** @ [AAI Lab, KAIST](https://aai.kaist.ac.kr/) |
+| Oct 2025 - Apr 2026 | **AI Engineer** @ [Nota AI](https://nota.ai/) |
 | Aug 2025 - Oct 2025 | **Hugging Face Open Source Contributor** @ [OSSCA](https://www.contribution.ac/) |
 | May 2025 - Aug 2025 | **AI Research Engineer** @ [Upstage](https://www.upstage.ai/) |
 | Aug 2024 - Feb 2025 | **NLP Track** @ [Naver Boostcamp AI Tech 7th](https://boostcamp.connect.or.kr/program_ai.html) |
