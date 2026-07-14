@@ -6,6 +6,10 @@
 - Studying to become an **AI researcher**; interested in LLM alignment tuning, quantization, etc.
 - B.S. in EE & CS (GPA 4.3/4.5, **Ranked 1st**).
 - Interested in open-source contributions.
+  - [EleutherAI/lm-evaluation-harness#3654](https://github.com/EleutherAI/lm-evaluation-harness/pull/3654) (shipped in v0.4.12)
+  - [dropbox/hqq#174](https://github.com/dropbox/hqq/pull/174)
+  - [huggingface/trl#3837](https://github.com/huggingface/trl/pull/3837)
+  - [huggingface/transformers](https://github.com/huggingface/transformers/pulls?q=is%3Apr+author%3Anevertmr+is%3Amerged)
 
 ### ✏️ Study Logs
 [2025/04/08 - \[발표요약\]what is transformer?](https://def-init.tistory.com/32)  
