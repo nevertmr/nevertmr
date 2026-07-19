@@ -1,5 +1,5 @@
 ## Minseo is working.. <img src="claude-loading.gif" width="28">
-<sub><i>Hello, July 19, 2026:D Let's give it our best shot.</i></sub>
+<sub><i>Hello, July 20, 2026:D Let's give it our best shot.</i></sub>
 
 ### 🚀About Me
 
@@ -12,11 +12,11 @@
   - [huggingface/transformers](https://github.com/huggingface/transformers/pulls?q=is%3Apr+author%3Anevertmr+is%3Amerged)
 
 ### ✏️ Study Logs
+[2026/07/19 - DGX Spark 커널 패닉 복구: 업데이트 도중 initramfs 오류 해결](https://def-init.tistory.com/36)  
 [2025/04/08 - \[발표요약\]what is transformer?](https://def-init.tistory.com/32)  
 [2025/03/02 - \[논문 리뷰\]PERL(PE-RLHF); Parameter Efficient Reinforcement Learning from Human Feedback](https://def-init.tistory.com/30)  
 [2025/03/01 - Reinforcement Learning : Understanding Fundamentals &ndash; From Key Concepts to Policy Gradient Methods](https://def-init.tistory.com/29)  
 [2025/02/23 - \[논문리뷰\] RLHF;Training language models to follow instructions with human feedback](https://def-init.tistory.com/28)  
-[2025/01/30 - 우분투 환경에서 deepseek-r1 로컬 설치하기(open-webui, docker)](https://def-init.tistory.com/27)  
 
 [See all...](https://def-init.tistory.com)
 
