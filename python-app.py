@@ -54,6 +54,7 @@ markdown_text = f"""## Minseo is working.. <img src="claude-loading.gif" width="
   - [EleutherAI/lm-evaluation-harness #3654](https://github.com/EleutherAI/lm-evaluation-harness/pull/3654) (shipped in v0.4.12)
   - [dropbox/hqq #174](https://github.com/dropbox/hqq/pull/174)
   - [huggingface/trl #3837](https://github.com/huggingface/trl/pull/3837)
+  - [huggingface/lerobot #4110](https://github.com/huggingface/lerobot/pull/4110)
   - [huggingface/transformers](https://github.com/huggingface/transformers/pulls?q=is%3Apr+author%3Anevertmr+is%3Amerged)
 
 ### ✏️ Study Logs
